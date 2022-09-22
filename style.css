@@ -1,0 +1,71 @@
+*{
+    background-color: bisque;
+    /* margin: 0; */
+    /* padding: 0; */
+    background-image: url('dark.jpg');
+}
+body{
+   
+}
+.header{
+    /* display: flex; */
+    font-size: 20px;
+    font-weight: 400;
+    text-align: right;
+    /* padding-left: 200px;
+    padding-right: 30px; */
+    
+}
+.header img{
+    height: 10px;
+    width: 30px; /* makes the div same size as content */
+    /* float: left;
+    text-align: right; */
+    padding-left: 10px;
+    flex-direction: column;
+    padding-right: 10px;
+    
+}
+.header a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.body{
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+.body h1{
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+   font-weight: 700;
+   font-size: 50px;
+   color: aliceblue;
+}
+.body input{
+    height: 25px;
+    cursor: pointer;
+    width: 300px;
+    border-radius: 18px;
+    border: 2px solid aliceblue;
+    background-color: aliceblue;
+    color: aliceblue;
+}
+.body .a{
+    
+    padding-top: 20px;
+
+}
+.a a{
+    text-decoration: none;
+    margin: 5px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.footer{
+    padding-top: 200px;
+   
+}
+.footer a{
+    color: aliceblue;
+}
